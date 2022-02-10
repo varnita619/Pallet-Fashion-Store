@@ -11,6 +11,10 @@
     display: none;
 }
 
+.border{
+    border-bottom: 1px solid var(--secondary-color);
+}
+
 .heading{
     text-align: center;
     width: 100%;
