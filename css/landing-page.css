@@ -36,11 +36,15 @@
   text-align: center;
 }
 
-.banner > a > button {
+.btn-container{
+  display: flex;
+  gap: 2rem;
   position: absolute;
+}
+
+.twin-btn{
   cursor: pointer;
-  width: 5rem;
-  padding: .2rem;
+  padding: .5rem;
   background-color: var(--primary-color);
   border: 1px solid var(--white);
   border-radius: 0;
@@ -51,7 +55,7 @@
   margin-top: -28rem;
   color: var(--white);
 }
-.banner > a > button:hover {
+.twin-btn:hover {
   background-color: var(--btn-hover);
   color: var(--primary-color);
 }
@@ -95,5 +99,23 @@
 @media screen and (max-width:750px){
     .banner::after{
       display: none;
+    }
+
+    .banner > img{
+      height: 25rem;
+    }
+
+    .banner > h1{
+      margin-top: 15rem;
+      font-size: 1.7rem;
+    }
+
+    .banner > p{
+      margin-top: 10rem;
+      font-size: 1.2rem;
+    }
+
+    .twin-btn{
+      font-size: .7rem;
     }
 }
