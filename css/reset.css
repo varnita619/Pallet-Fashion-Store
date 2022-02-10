@@ -4,10 +4,16 @@
     --white:white;
     --btn-hover:rgba(238, 231, 231, 0.527);
     --subheading:rgba(21, 21, 21, 0.5);
+    --danger-color:red;
 }
 
 .hide{
     display: none;
+}
+
+.heading{
+    text-align: center;
+    width: 100%;
 }
 
 /* footer */
