@@ -6,6 +6,10 @@
     --subheading:rgba(21, 21, 21, 0.5);
 }
 
+.hide{
+    display: none;
+}
+
 /* footer */
 
 .footer{
