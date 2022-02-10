@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Pallet UI Link -->
+    <link
+      rel="stylesheet"
+      href="https://pallet-ui.netlify.app/css/component.css"
+    />
+    <link rel="stylesheet" href="/css/sidebar.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/products-page.css" />
+  </head>
+
+  <body>
+    <header class="nav-bar">
+      <div class="nav-bar_row">
+        <div class="nav-bar_section--align-start">
+          <button class="nav-bar_action-item">
+            <i class="fas fa-bars"></i></button
+          ><span class="nav-bar_heading">Pallet UI</span>
+        </div>
+
+        <div class="nav-bar_section--align-end">
+          <button class="login-btn">Login</button>
+          <button class="nav-bar_action-item">
+            <i class="fas fa-search"></i>
+          </button>
+          <button class="nav-bar_action-item">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+          <button class="nav-bar_action-item">
+            <i class="far fa-bell"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-container">
+      <div class="side-bar">
+        <div class="side-list">
+          <div class="sort-filters">
+            <h3>Filters</h3>
+            <p class="clear-btn">Clear</p>
+          </div>
+        </div>
+
+        <div class="side-list">
+          <h4 class="list-topic">Prices</h4>
+          <div class="slide-container">
+            <input type="range" min="300" max="10000" value="300" />
+          </div>
+
+          <h4 class="list-topic">Category</h4>
+
+          <section class="checkbox-section">
+            <label class="checkbox-title">
+              <input type="checkbox" id="men" name="checkbox" />Men Clothing
+            </label>
+
+            <label class="checkbox-title">
+              <input type="checkbox" id="women" name="checkbox" />Women Clothing
+            </label>
+
+            <label class="checkbox-title">
+              <input type="checkbox" id="kids" name="checkbox" />Kids Clothing
+            </label>
+          </section>
+
+          <h4 class="list-topic">Rating</h4>
+
+          <section class="radio-section">
+            <label class="radio-title">
+              <input type="radio" id="4Stars" name="radio" /> 4 Stars & above
+            </label>
+          </section>
+
+          <section class="radio-section">
+            <label class="radio-title">
+              <input type="radio" id="3Stars" name="radio" /> 3 Stars & above
+            </label>
+          </section>
+
+          <section class="radio-section">
+            <label class="radio-title">
+              <input type="radio" id="2Stars" name="radio" /> 2 Stars & above
+            </label>
+          </section>
+
+          <section class="radio-section">
+            <label class="radio-title">
+              <input type="radio" id="1Stars" name="radio" /> 1 Star & above
+            </label>
+          </section>
+
+          <h4 class="list-topic">Sort by</h4>
+
+          <section class="radio-section">
+            <label class="radio-title">
+              <input type="radio" id="lowToHigh" name="radio" /> Price - Low to
+              High
+            </label>
+          </section>
+
+          <section class="radio-section">
+            <label class="radio-title">
+              <input type="radio" id="highToLow" name="radio" /> Price - High to
+              Low
+            </label>
+          </section>
+        </div>
+      </div>
+
+      <!-- Products Section Start -->
+
+      <main class="products-wrapper">
+        <h1 class="products-heading">All Products</h1>
+
+        <div class="card">
+          <span class="card-badge"><i class="far fa-heart"></i></span>
+          <div class="card-image">
+            <img src="https://cdn.pixabay.com/photo/2017/03/27/13/28/man-2178721__340.jpg" alt="card-image" />
+          </div>
+
+          <div class="card-details">
+            <h3>Men's Premium Jacket</h3>
+            <span>Ships in 3-4 working days</span>
+          </div>
+          <div class="card-pricing">
+            <h2>$20</h2>
+          </div>
+
+          <div class="card-buttons">
+            <button class="btn1 cart-btn">
+              <i class="fas fa-shopping-cart"></i> Add to cart
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+            <span class="card-badge"><i class="far fa-heart"></i></span>
+            <div class="card-image">
+              <img src="https://cdn.pixabay.com/photo/2017/03/27/13/28/man-2178721__340.jpg" alt="card-image" />
+            </div>
+  
+            <div class="card-details">
+              <h3>Men's Premium Jacket</h3>
+              <span>Ships in 3-4 working days</span>
+            </div>
+            <div class="card-pricing">
+              <h2>$20</h2>
+            </div>
+  
+            <div class="card-buttons">
+                <button class="btn1 cart-btn">
+                    <i class="fas fa-shopping-cart"></i> Add to cart
+                  </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <span class="card-badge"><i class="far fa-heart"></i></span>
+            <div class="card-image">
+              <img src="https://cdn.pixabay.com/photo/2017/03/27/13/28/man-2178721__340.jpg" alt="card-image" />
+            </div>
+  
+            <div class="card-details">
+              <h3>Men's Premium Jacket</h3>
+              <span>Ships in 3-4 working days</span>
+            </div>
+            <div class="card-pricing">
+              <h2>$20</h2>
+            </div>
+  
+            <div class="card-buttons">
+                <button class="btn1 cart-btn">
+                    <i class="fas fa-shopping-cart"></i> Add to cart
+                  </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <span class="card-badge"><i class="far fa-heart"></i></span>
+            <div class="card-image">
+              <img src="https://cdn.pixabay.com/photo/2017/03/27/13/28/man-2178721__340.jpg" alt="card-image" />
+            </div>
+  
+            <div class="card-details">
+              <h3>Men's Premium Jacket</h3>
+              <span>Ships in 3-4 working days</span>
+            </div>
+            <div class="card-pricing">
+              <h2>$20</h2>
+            </div>
+  
+            <div class="card-buttons">
+                <button class="btn1 cart-btn">
+                    <i class="fas fa-shopping-cart"></i> Add to cart
+                  </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <span class="card-badge"><i class="far fa-heart"></i></span>
+            <div class="card-image">
+              <img src="https://cdn.pixabay.com/photo/2017/03/27/13/28/man-2178721__340.jpg" alt="card-image" />
+            </div>
+  
+            <div class="card-details">
+              <h3>Men's Premium Jacket</h3>
+              <span>Ships in 3-4 working days</span>
+            </div>
+            <div class="card-pricing">
+              <h2>$20</h2>
+            </div>
+  
+            <div class="card-buttons">
+                <button class="btn1 cart-btn">
+                    <i class="fas fa-shopping-cart"></i> Add to cart
+                  </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <span class="card-badge"><i class="far fa-heart"></i></span>
+            <div class="card-image">
+              <img src="https://cdn.pixabay.com/photo/2017/03/27/13/28/man-2178721__340.jpg" alt="card-image" />
+            </div>
+  
+            <div class="card-details">
+              <h3>Men's Premium Jacket</h3>
+              <span>Ships in 3-4 working days</span>
+            </div>
+            <div class="card-pricing">
+              <h2>$20</h2>
+            </div>
+  
+            <div class="card-buttons">
+                <button class="btn1 cart-btn">
+                    <i class="fas fa-shopping-cart"></i> Add to cart
+                  </button>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <span class="card-badge"><i class="far fa-heart"></i></span>
+            <div class="card-image">
+              <img src="https://cdn.pixabay.com/photo/2017/03/27/13/28/man-2178721__340.jpg" alt="card-image" />
+            </div>
+  
+            <div class="card-details">
+              <h3>Men's Premium Jacket</h3>
+              <span>Ships in 3-4 working days</span>
+            </div>
+            <div class="card-pricing">
+              <h2>$20</h2>
+            </div>
+  
+            <div class="card-buttons">
+                <button class="btn1 cart-btn">
+                    <i class="fas fa-shopping-cart"></i> Add to cart
+                  </button>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <span class="card-badge"><i class="far fa-heart"></i></span>
+            <div class="card-image">
+              <img src="https://cdn.pixabay.com/photo/2017/03/27/13/28/man-2178721__340.jpg" alt="card-image" />
+            </div>
+  
+            <div class="card-details">
+              <h3>Men's Premium Jacket</h3>
+              <span>Ships in 3-4 working days</span>
+            </div>
+            <div class="card-pricing">
+              <h2>$20</h2>
+            </div>
+  
+            <div class="card-buttons">
+                <button class="btn1 cart-btn">
+                    <i class="fas fa-shopping-cart"></i> Add to cart
+                  </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <span class="card-badge"><i class="far fa-heart"></i></span>
+            <div class="card-image">
+              <img src="https://cdn.pixabay.com/photo/2017/03/27/13/28/man-2178721__340.jpg" alt="card-image" />
+            </div>
+  
+            <div class="card-details">
+              <h3>Men's Premium Jacket</h3>
+              <span>Ships in 3-4 working days</span>
+            </div>
+            <div class="card-pricing">
+              <h2>$20</h2>
+            </div>
+  
+            <div class="card-buttons">
+                <button class="btn1 cart-btn">
+                    <i class="fas fa-shopping-cart"></i> Add to cart
+                  </button>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <span class="card-badge"><i class="far fa-heart"></i></span>
+            <div class="card-image">
+              <img src="https://cdn.pixabay.com/photo/2017/03/27/13/28/man-2178721__340.jpg" alt="card-image" />
+            </div>
+  
+            <div class="card-details">
+              <h3>Men's Premium Jacket</h3>
+              <span>Ships in 3-4 working days</span>
+            </div>
+            <div class="card-pricing">
+              <h2>$20</h2>
+            </div>
+  
+            <div class="card-buttons">
+                <button class="btn1 cart-btn">
+                    <i class="fas fa-shopping-cart"></i> Add to cart
+                  </button>
+            </div>
+          </div>
+      </main>
+    </div>
+
+    <!-- Side Bar End -->
+  </body>
+</html>

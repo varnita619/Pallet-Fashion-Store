@@ -1,0 +1,19 @@
+.products-heading{
+    width: 100%;
+}
+
+.products-wrapper{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin: 1rem 2rem 1rem 5rem;
+}
+
+.cart-btn{
+    padding: .5rem;
+}
