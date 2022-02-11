@@ -1,3 +1,11 @@
+.nav-bar{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    /* background-color: red; */
+}
 .nav-links {
     text-decoration: none;
     color: black;
@@ -5,7 +13,24 @@
     margin-left: 2em;
 }
 
+.nav-bar_section--align-end{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon{
+    color: var(--primary-color);
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.main-container{
+    margin-top: 1rem;
+}
+
 .products-heading{
+    text-decoration: underline;
+    text-align: center;
     width: 100%;
 }
 
@@ -23,4 +48,24 @@
 
 .cart-btn{
     padding: .5rem;
+}
+
+@media screen and (max-width:430px){
+
+    .products-heading{
+        font-size: 1.2rem;
+    }
+
+    .products-wrapper{
+        max-width: 21rem;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .products-wrapper{
+        max-width: 17rem;
+        height: auto;
+    }
+    
 }

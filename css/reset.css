@@ -5,6 +5,8 @@
     --btn-hover:rgba(238, 231, 231, 0.527);
     --subheading:rgba(21, 21, 21, 0.5);
     --danger-color:red;
+    --condition-color:dodgerblue;
+    --hr-color:#f1f1f1;
 }
 
 .hide{
